@@ -1,4 +1,4 @@
-const config={goUrl:"",safeUrl:"",safeSubscriptionActive:true};
+const config={goUrl:"https://rala-opzfqbw4x-rala-go.vercel.app",safeUrl:"",safeSubscriptionActive:true};
 const safeCard=document.querySelector("#safe-card");
 const safeButton=document.querySelector("#safe-button");
 if(!config.safeSubscriptionActive){safeCard.classList.add("locked");safeButton.textContent="LÅST";safeButton.disabled=true;}
