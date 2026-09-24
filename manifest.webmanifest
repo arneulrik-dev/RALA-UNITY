@@ -1,1 +1,1 @@
-{"id":"/","name":"RALA NORDIC","short_name":"RALA","description":"Portal for RALA GO og RALA SAFE","start_url":"/","scope":"/","display":"standalone","background_color":"#050b14","theme_color":"#071426","orientation":"portrait-primary"}
+{"id":"/","name":"RALA NORDIC","short_name":"RALA NORDIC","description":"Portal for RALA GO og RALA SAFE","start_url":"/","scope":"/","display":"standalone","background_color":"#050b14","theme_color":"#071426","orientation":"portrait-primary","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
