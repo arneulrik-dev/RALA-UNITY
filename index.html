@@ -9,31 +9,29 @@
   <meta name="apple-mobile-web-app-title" content="RALA NORDIC" />
   <meta name="mobile-web-app-capable" content="yes" />
   <title>RALA NORDIC</title>
-  <link rel="manifest" href="/manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="/manifest.webmanifest?v=3" />
+  <link rel="stylesheet" href="/styles.css?v=3" />
 </head>
 <body>
   <main class="shell">
-    <header>
-      <div class="brand nordic"><span>RALA</span><strong>NORDIC</strong></div>
-      <p>Velg tjeneste</p>
-    </header>
+    <header><div class="brand nordic"><span>RALA</span><strong>NORDIC</strong></div><p>Velg tjeneste</p></header>
     <section class="apps" aria-label="RALA apper">
       <article class="app-card">
         <div class="icon"><span>RALA</span><strong>GO</strong></div>
         <div class="copy"><h2>RALA GO</h2><p>Bestilling og innkjøp gjort enkelt.</p></div>
-        <button class="open" data-app="go">ÅPNE</button>
+        <button class="open" onclick="location.href='https://rala-opzfqbw4x-rala-go.vercel.app'">ÅPNE</button>
       </article>
-      <article class="app-card" id="safe-card">
+      <article class="app-card">
         <div class="icon"><span>RALA</span><strong>SAFE</strong></div>
         <div class="copy"><h2>RALA SAFE</h2><p>Sikkerhet og kontroll samlet på ett sted.</p></div>
-        <button class="open" id="safe-button" data-app="safe">ÅPNE</button>
+        <button class="open" onclick="location.href='https://hms-hverdags-helter.lovable.app/'">ÅPNE</button>
       </article>
     </section>
-    <button id="install-button" class="install" hidden>INSTALLER RALA NORDIC</button>
-    <p id="ios-install" class="install-help" hidden>På iPhone: trykk Del → Legg til på Hjem-skjermen.</p>
     <footer>RALA NORDIC</footer>
   </main>
-  <script src="app.js"></script>
+  <script>
+    if("serviceWorker" in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister()));}
+    if("caches" in window){caches.keys().then(keys=>keys.forEach(k=>caches.delete(k)));}
+  </script>
 </body>
 </html>
