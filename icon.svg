@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="96" fill="#071426"/><text x="256" y="238" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="112" font-weight="900" font-style="italic">RALA</text><text x="256" y="340" text-anchor="middle" fill="#19a8ff" font-family="Arial,sans-serif" font-size="82" font-weight="900" font-style="italic">NORDIC</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Nordic Proffsenter">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#092c4d"/><stop offset=".48" stop-color="#061729"/><stop offset="1" stop-color="#020914"/></linearGradient><linearGradient id="blue" x2=".2" y2="0" x1=".8" y1="1"><stop stop-color="#00b9ff"/><stop offset="1" stop-color="#0679f5"/></linearGradient></defs>
+<rect width="512" height="512" rx="94" fill="url(#bg)"/><rect x="9" y="9" width="494" height="494" rx="86" fill="none" stroke="#159ff2" stroke-width="7"/>
+<g transform="translate(124 54)"><path d="M132 8H255V143Z" fill="url(#blue)"/><path d="M8 132L131 254H8Z" fill="url(#blue)"/><path d="M26 8H91Q100 8 107 16L251 163V239Q251 255 235 255H204Q195 255 188 247L8 68V26Q8 8 26 8Z" fill="#fff"/></g>
+<text x="256" y="374" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="900" letter-spacing="-2" fill="#fff">NORDIC</text>
+<text x="256" y="426" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="800" letter-spacing="1.5" fill="#10a8ff">PROFFSENTER</text>
+</svg>
